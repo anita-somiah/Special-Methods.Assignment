@@ -89,6 +89,4 @@ Called by: Python when the object is about to be destroyed.
 Purpose: Defines cleanup actions before an object is deleted.
 
 def __del__(self):
-    print("Object is being deleted")
-
-Note: Not guaranteed to run immediately. Use with `with` statements for reliable cleanup.
+    print("Object is being deleted"
